@@ -4,9 +4,9 @@ class Stack:
     def __init__(self):
         self.stk=[]
     def push(self,value):
-        self.stk.append(value)
+        self.stk.append(value) # O(1)
     def pop(self):
-        return self.stk.pop()
+        return self.stk.pop() # O(1)
     def isEmpty(self):
         if(self.size()==0):
             return True
