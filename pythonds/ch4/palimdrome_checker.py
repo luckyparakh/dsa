@@ -13,3 +13,5 @@ def palindrome_check(palin):
             break
     return flag
 print(palindrome_check("radar"))
+print("ee")
+print("abc")
